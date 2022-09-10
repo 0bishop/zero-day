@@ -5,7 +5,7 @@
 class TextScramble {
   constructor(el) {
     this.el = el;
-    this.chars = 'йцукенгшщзхъэждлорпавыфя';
+    this.chars = 'АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя';
     this.update = this.update.bind(this);
   }
   setText(newText) {
@@ -60,8 +60,9 @@ const phrases = [
 "Hello, I am Bishop.",
 "I'm a Developer,",
 "I love Python.",
-"I am currently learning C, Networking...",
+"I am currently learning C for 4 months,",
 "And I like to tweak things.",
+"братва",
 "",];
 
 const el = document.querySelector('.text');
